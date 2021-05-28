@@ -17,7 +17,11 @@
 }
 
 .navbar-toggler-icon {
-    background: darkorange;
+    background: red;
+}
+
+.nav-link {
+    text-transform: uppercase;
 }
 
 
