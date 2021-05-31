@@ -7,10 +7,9 @@
             body {
                 height: 100%;
                 width: 100%;
+                padding-top: 70px;
                 scroll-behavior: smooth;
             }
-            
-            nav {}
             
             .navbar {
                 padding: 1% 0;
@@ -33,10 +32,11 @@
             
             .nav-link {
                 text-transform: uppercase;
+                color: black;
             }
             
             .navbar {
-                background: greenyellow;
+                background: white;
             }
             
             .big-text {
