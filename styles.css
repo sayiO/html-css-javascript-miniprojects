@@ -9,11 +9,13 @@
                 width: 100%;
                 padding-top: 70px;
                 scroll-behavior: smooth;
+                background-color: #77dd77;
             }
             
             .navbar {
                 padding: 1% 0;
                 font-size: 1.2em;
+                background: #90EE90;
             }
             
             .navbar-brand {
@@ -33,10 +35,16 @@
             .nav-link {
                 text-transform: uppercase;
                 color: black;
+                font-weight: 200;
             }
             
-            .navbar {
-                background: white;
+            #home {
+                background: url("images/foodcon1.jpg") no-repeat center center fixed;
+                display: table;
+                height: 100%;
+                position: relative;
+                width: 100%;
+                background-size: cover;
             }
             
             .big-text {
@@ -48,4 +56,8 @@
             .banner-image,
             .banner-info {
                 margin: 30px 0;
+            }
+            
+            .banner-info {
+                text-align: center;
             }
