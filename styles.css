@@ -1,6 +1,6 @@
             * {
-                margin: 0;
-                padding: 0;
+                margin: 0px;
+                padding: 0px;
             }
             
             html,
@@ -63,14 +63,24 @@
             }
             
             #our-team {
-                background-color: white;
+                background-color: aquamarine;
                 width: 100%;
+                padding: 30px 0px;
+            }
+            
+            .text-lg-center {
+                font-weight: 1200;
+                font-size: 34px;
             }
             
             #our-team .row {
                 justify-content: center;
                 margin-top: 8%;
                 margin-bottom: 8%;
+            }
+            
+            .card {
+                margin: 20px 10px;
             }
             
             .inner {
@@ -83,4 +93,8 @@
             
             .inner:hover img {
                 transform: scale(1.5);
+            }
+            
+            .card-body {
+                box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
             }
