@@ -15,7 +15,7 @@
             .navbar {
                 padding: 1% 0;
                 font-size: 1.2em;
-                background: #90EE90;
+                background: white;
             }
             
             .navbar-brand {
@@ -60,4 +60,27 @@
             
             .banner-info {
                 text-align: center;
+            }
+            
+            #our-team {
+                background-color: white;
+                width: 100%;
+            }
+            
+            #our-team .row {
+                justify-content: center;
+                margin-top: 8%;
+                margin-bottom: 8%;
+            }
+            
+            .inner {
+                overflow: hidden;
+            }
+            
+            .inner img {
+                transition: all 1.5s ease;
+            }
+            
+            .inner:hover img {
+                transform: scale(1.5);
             }
