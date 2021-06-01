@@ -78,7 +78,7 @@
             }
             
             .inner img {
-                transition: all 1.5s ease;
+                transition: all 1.5s ease-out;
             }
             
             .inner:hover img {
