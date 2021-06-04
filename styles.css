@@ -98,8 +98,9 @@
             .card-body {
                 box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
             }
+            /*flip card */
             
-            flip card */ .card-flip>div {
+            .card-flip>div {
                 backface-visibility: hidden;
                 transition: transform 300ms;
                 transition-timing-function: linear;
