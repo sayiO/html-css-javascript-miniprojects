@@ -7,16 +7,7 @@
           body {
               height: 100%;
               width: 100%;
-              padding-top: 70px;
               scroll-behavior: smooth;
-              background-color: #77dd77;
-          }
-          
-          header {
-              background: linear-gradient(rgba(84, 153, 78, 0.5), rgba(91, 223, 124, 0.5)), url("images/beer.jpg");
-              background-size: cover;
-              background-position: center;
-              height: 100vh;
           }
           
           .navbar {
@@ -36,21 +27,13 @@
           }
           
           .navbar-toggler-icon {
-              background-color: red;
+              background-color: black;
           }
           
           .nav-link {
               text-transform: uppercase;
               color: black;
           }
-          /*#home {
-              background: url("images/foodcon1.jpg") no-repeat center center fixed;
-              display: table;
-              height: 100%;
-              position: relative;
-              width: 100%;
-              background-size: cover;
-          }*/
           
           .big-text {
               font-size: 52px;
