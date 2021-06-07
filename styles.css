@@ -115,3 +115,9 @@
           .card-flip:hover .card-back {
               transform: rotateY(0deg);
           }
+          
+          .fwh {
+              height: 100vh;
+              box-sizing: border-box;
+              padding: 35px;
+          }
