@@ -117,10 +117,8 @@
               }
               
               .fwh {
-                  min-height: 100vh;
+                  height: 100vh;
                   box-sizing: border-box;
-                  padding: 35px;
-                  margin: -35px;
               }
               
               footer {
