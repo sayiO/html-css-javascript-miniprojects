@@ -51,7 +51,7 @@ body {
     text-align: center;
 }
 
-#our-team {
+#mteam {
     background-color: aquamarine;
     width: 100%;
     padding: 30px 0px;
@@ -127,6 +127,9 @@ body {
 footer {
     background: #d8d8d8;
 }
+
+
+/* social media styling*/
 
 .social-menu ul {
     position: absolute;
