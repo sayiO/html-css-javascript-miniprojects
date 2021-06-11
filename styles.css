@@ -19,10 +19,34 @@ body {
     border-radius: 0px;
 }
 
+.jumbotron h1 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+.intro {
+    padding-top: 160px;
+}
+
+.intro img {
+    width: 220px;
+}
+
 .navbar {
     padding: 1% 0;
     font-size: 1.2em;
     background: #808880;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler .fa {
+    color: #fff;
+    font-size: 26px;
 }
 
 .navbar-brand {
@@ -36,10 +60,6 @@ body {
     margin-right: 7px;
 }
 
-.navbar-toggler-icon {
-    background-color: black;
-}
-
 .nav-link {
     text-transform: uppercase;
     color: black;
@@ -48,6 +68,9 @@ body {
 .nav-link:hover {
     color: #373D20;
     text-transform: lowercase;
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
 }
 
 .dropdown-item:hover {
