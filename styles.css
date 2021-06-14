@@ -290,15 +290,16 @@ footer {
 }
 
 
-/*zommIn*/
+/*fadeIn*/
 
-@keyframes {
+@keyframes btnEntrance {
     from {
         opacity: 0;
-        transform: scale3d(0.3, 0.3, 0.3);
+        transform: translate3d(0, 100%, 0);
     }
     to {
         opacity: 1;
+        transform: translate3d(0, 0, 0);
     }
 }
 
@@ -309,14 +310,14 @@ footer {
 }
 
 
-/*zoomOut*/
+/*fadeOut*/
 
-@keyframes {
+@keyframes btnExit {
     from {
         opacity: 1;
     }
     to {
         opacity: 0;
-        transform: scale3d(0.3, 0.3, 0.3);
+        transform: translate3d(0, 100%, 0);
     }
 }
