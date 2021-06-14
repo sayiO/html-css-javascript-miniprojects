@@ -130,6 +130,12 @@ body {
     overflow: hidden;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+
 .inner img {
     transition: all 1.5s ease-out;
 }
