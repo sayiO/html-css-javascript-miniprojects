@@ -7,6 +7,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    padding-top: 100px;
     scroll-behavior: smooth;
 }
 
@@ -255,4 +256,10 @@ footer {
 
 .social-menu ul li:nth-child(6) a:hover {
     background-color: #25D366;
+}
+
+#back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 }
