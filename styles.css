@@ -99,9 +99,21 @@ body {
 }
 
 #mteam {
-    background-color: dimgray;
+    background-color: #dbe5e6;
     width: 100%;
     padding: 30px 0px;
+}
+
+#mteam h1 {
+    font-weight: 900;
+    font-size: 34px;
+    padding-bottom: 5px;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    padding: 25px 0px;
 }
 
 .text-lg-center {
